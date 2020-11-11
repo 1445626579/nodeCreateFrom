@@ -1,0 +1,27 @@
+module.exports={
+  pageName:'test',
+  formList:[
+    {
+      type:'input',
+      title:'测试输入框',
+      test:'test',
+      props:{
+        "v-model":'testValue',
+        placeholder:'测试的文本',
+        suffixIcon:'el-icon-date',
+        prefixIcon:'el-icon-date',
+        "value":'testValue',
+        "showFileList":'function'
+      },
+      events:{
+        click:'handle',
+        changeValue:'handle'
+      },
+      attr:{
+        props:{
+
+        }
+      }
+    }
+  ]
+}
